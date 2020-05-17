@@ -90,7 +90,7 @@ p {
 	padding-bottom: 175px;
 	padding-left: 120px;
 	text-align: left;
-	background-image: url(../img/Fondo2.jpg);
+	background-image: url(../img/Fondo1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -124,7 +124,7 @@ p {
 }
 
 .right-banner-content {
-	padding: 100px 45px;
+	padding: 100px 40px;
 	background-color: #f4bc51;
 	text-align: center;		
 	min-height: 680px;
@@ -257,7 +257,7 @@ p {
 
 .right-banner-content .social-icons li .tooltiptextInstagram {
   visibility: hidden;
-  width: 100px;
+  width: 145px;
   background-color: gray;
   color: #fff;
   text-align: center;
@@ -596,7 +596,6 @@ p {
 	padding-top: 100px;
 	padding-bottom: 100px;
 	text-align: center;
-	background-image: url(../img/testimonial-bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -671,7 +670,6 @@ p {
 	padding-top: 0vh;
 	padding-bottom: 0vh;
 	text-align: center;
-	background-image: url(../img/services-bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -770,7 +768,7 @@ transition-delay: 0.3s;
 
 .front p{
 	color: #fff;
-	padding: 90px 30px;
+	padding: 90px 14px;
 	font-size: 16px;
 	margin-top: -60px;
 }
@@ -986,7 +984,7 @@ footer p em {
 	}
 
 	.left-banner-content h1 {
-		font-size: 64px;
+		font-size: 30px;
 		font-weight: 300;
 		color: #fff;
 		line-height: 80px!important;
@@ -1169,7 +1167,7 @@ footer p em {
 	}
 
 	footer p {
-		font-size: 11px;
+		font-size: 9.5px;
 	}
 		
 }
