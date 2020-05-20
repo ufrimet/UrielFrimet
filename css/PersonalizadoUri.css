@@ -1,0 +1,88 @@
+.image img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    text-align: center;
+}
+	
+.fa-lightbulb-o {
+    color: white;
+    font-size: 100px;
+}
+
+.RotacionImagen {
+   -webkit-transform: rotate(360deg);
+   -moz-transform: rotate(360deg);
+   -o-transform: rotate(360deg);
+   -ms-transform: rotate(360deg);
+   transform: rotate(360deg);
+}
+
+.MargenSeccion1 {
+	padding-right: 0px;
+    padding-left: 0px;
+}
+
+.ClaseFooter{
+  background-color: #b94e5e;
+}
+  
+.ClaseFooter ul li{
+  display: inline-block;
+}
+
+.ClaseFooter ul li:hover .Tooltip{
+  display: block;
+}
+
+.ClaseFooter p{
+  color: white; 
+  font-style: normal;
+  font-weight: bold;
+}
+
+.ClaseFooter a{
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  display: inline-block;
+  line-height: 45px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: all 0.5s;
+  color: #b94e5e;
+  font-size: 22px;
+  /* Estas linea sirve para el tooltip */
+  position: relative;
+}
+
+.ClaseFooter a:hover{
+  background-color: #80333e;
+}
+
+.Tooltip {
+  display: none;
+  width: 180px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  font-style: normal;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  margin-top: -20px;
+  margin-left: -30px;
+}
+
+.CuadradoFlipper:hover{
+  opacity: 0.9;
+}
+
+/* Portrait*/
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+ .best-offer-right-content .pink-button {
+  margin-top: 0px;
+ } 
+}
