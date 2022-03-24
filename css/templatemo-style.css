@@ -966,6 +966,10 @@ footer p em {
 
 @media (max-width: 991px) {
 
+	.right-banner-content .social-icons li span{
+		display: none;
+	}
+	
 	.banner .col-md-8 {
 		margin-top: 10px;
 		padding-left: 10px;
