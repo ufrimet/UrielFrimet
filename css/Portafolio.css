@@ -38,7 +38,7 @@ body h1 {
       -ms-flex-direction: row;
           flex-direction: row;
   position: relative;
-  height: 330px;
+  height: 360px;
   width: 100%;
 }
 .gallery .wrap {
@@ -86,7 +86,7 @@ body h1 {
 .gallery .wrap figure label {
   height: auto;
   width: 100%;
-  height: 100%;
+  height: 90%;
   position: relative;
   display: block;
 }
@@ -304,4 +304,20 @@ body h1 {
   font-weight: 700;
   text-align: center;
   width: 80%;
+}
+
+@media (max-width: 1024px){ 
+
+  .TituloPortafolio { width: 100%; }
+
+  .gallery .wrap figure label{
+    height: 80%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .gallery .wrap figure label a{ margin: 5px 0; }
+
+  .testimonial-image{display: none;}
 }

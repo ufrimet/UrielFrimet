@@ -87,3 +87,14 @@
   margin-top: 0px;
  } 
 }
+
+@media (max-width: 1024px){
+
+  .ClaseFooter a{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 19px;
+  }
+
+}
