@@ -10,6 +10,7 @@ https://templatemo.com/tm-513-avalon
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', arial, sans-serif;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -51,7 +52,6 @@ p {
 	border-radius: 30px;
 	color: #fff;
 	font-size: 13px;
-	text-transform: uppercase;
 	font-weight: 700;
 	text-decoration: none;
 	transition: all 0.5s;
@@ -273,6 +273,27 @@ p {
 }
 
 .right-banner-content .social-icons li:hover .tooltiptextBe {
+  visibility: visible;
+}
+
+.right-banner-content .social-icons li .tooltiptextCal {
+  visibility: hidden;
+  width: 240px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 120%;
+	left: 0%;
+	margin-left: -85px;
+}
+
+.right-banner-content .social-icons li:hover .tooltiptextCal {
   visibility: visible;
 }
 
@@ -1286,4 +1307,11 @@ footer p em {
 	text-align: center;
 	background-color: blue;
 	min-height: 200px;
+}
+
+.PinkTitle{
+	font-style: normal;
+	color: #b94e5e;
+	font-weight: 700;
+	text-align: center;
 }

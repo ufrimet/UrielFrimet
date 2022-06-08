@@ -73,8 +73,12 @@
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  margin-top: -20px;
+  margin-top: -25px;
   margin-left: -30px;
+}
+
+.TooltipBig{
+  margin-top: -45px;
 }
 
 .CuadradoFlipper:hover{
