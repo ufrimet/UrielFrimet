@@ -105,10 +105,14 @@ p {
 }
 
 .left-banner-content h1 {
-	font-size: 64px;
-	font-weight: 300;
+	font-size: 55px;
+	font-weight: 500;
 	color: #fff;
 	line-height: 70px;
+}
+
+.left-banner-content h1 span{
+	font-size: 25px;
 }
 
 .left-banner-content .line-dec {
@@ -1010,11 +1014,18 @@ footer p em {
 
 	.left-banner-content h1 {
 		font-size: 30px;
-		font-weight: 300;
+		font-weight: 500;
 		color: #fff;
 		line-height: 80px!important;
 	}
 
+	.left-banner-content h1 span{
+		font-size: 18px;
+	}
+
+	.right-banner-content {
+  		padding: 100px 30px;
+	}
 
 	.banner .left-banner-content .line-dec {
 		margin: 0 auto;
@@ -1197,6 +1208,10 @@ footer p em {
 }
 
 @media (max-width: 843px) {
+
+	.right-banner-content span{
+		font-size: 22px;
+	}
 
 	.event-item {
 		text-align: center;
